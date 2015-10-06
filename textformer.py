@@ -21,6 +21,11 @@ class Window(QtGui.QMainWindow):
     def __init__(self, parent=None):
         super(Window, self).__init__()
         self.setWindowTitle("Text Former")
+        # begin window icon
+        icon = QtGui.QIcon()
+        icon.addFile("window.ico")
+        self.setWindowIcon(icon)
+        # end window icon
         self.resize(500, 500)
 
         # begin actions
