@@ -9,14 +9,9 @@ a passage copied from a PDF file is splitted by many linebreaks, which
 usually need us to remove one by one. This application provide
 a more elegant way to handle this kind of problems.
 
-# Key Features
-## Concatenate
+# Key Features: Tabularize
 <!--vid here-->
-Joining different lines of text into one line of passage.
-An empty line will be treated as a newline character.
-
-## Tabularize
-<!--vid here-->
+![tabularize](tutorial-tabularize.gif)
 Separate text into different columns so that we can copy it straight into Excel.
 
 # Installation
