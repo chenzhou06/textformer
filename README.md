@@ -37,7 +37,7 @@ For linux users, you can add a shebang line manually in the top of `textformer.p
 (of course you've already known that, you are using linux).
 For Windows users, you can freeze `textformer.py` into executables using 
 [cx\_freeze](http://cx-freeze.sourceforge.net/).
-I have done this successfully in myself.
+I myself have done this successfully.
 
 # Usage
 

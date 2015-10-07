@@ -26,7 +26,7 @@ class Window(QtGui.QMainWindow):
         icon.addFile("window.ico")
         self.setWindowIcon(icon)
         # end window icon
-        self.resize(500, 500)
+        self.resize(600, 500)
 
         # begin actions
         transForm = QAction("Transform", self)
