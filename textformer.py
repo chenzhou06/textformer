@@ -51,7 +51,7 @@ class Window(QtGui.QMainWindow):
         tabularize.setToolTip("Transform text into a table which can be recognized by MS Excel")
         self.connect(tabularize, QtCore.SIGNAL("triggered()"), self.tabularize)
 
-        removeSpaceAround = QAction("Remove Item Around Dot", self)
+        removeSpaceAround = QAction("Remove Space Around Dot", self)
         removeSpaceAround.setToolTip("Remove Spaces Around Dot \'.\'")
         self.connect(removeSpaceAround, QtCore.SIGNAL("triggered()"), self.removeSpaceAround)
 
